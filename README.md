@@ -7,11 +7,11 @@ You can run any number of these honeypots, but you will need to run each one sep
 
 ## Contents
  * [Requirements](#requirements)
- * [Installation](#install)
+ * [Installation](#installation)
  * [Usage](#usage)
  * [Contribute](#contribute)
  * [License](#license)
- * [Queries](#support)
+ * [Queries](#queries)
 
 ## Requirements
 
@@ -23,14 +23,14 @@ You will need the following:
  
 ## Installation
 
- 1. Create a folder: `mkdir myfolder` && go into the folder `cd myfolder/`
- 2. Install [telegram-cli](https://github.com/vysheng/tg#installation) in `myfolder/`
+ * Create a folder: `mkdir myfolder` && go into the folder `cd myfolder/`
+ * Install [telegram-cli](https://github.com/vysheng/tg#installation) in `myfolder/`
    * The cli is a client like any other Telegram client
    * You may need to validate usage of your account using the original app (or it can validate via SMS/call)
- 3. Install [pytg](https://github.com/luckydonald/pytg#install)
+ * Install [pytg](https://github.com/luckydonald/pytg#install)
    * Recommended to use a `venv`
    * Tested on Python3.6 only
- 4. Copy the `run.py` file from this repo into `myfolder/`
+ * Copy the `run.py` file from this repo into `myfolder/`
    * No need for complicated `git clone` or anything else
    
 ## Usage
